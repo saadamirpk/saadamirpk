@@ -3,7 +3,7 @@ import React from "react";
 
 export default function HeaderSection() {
   return (
-    <Container id="header-section" style={{ height: "100vh" }}>
+    <Container id="header-section" style={{ height: "130vh" }}>
       <Row justify="center" align="center" css={{ mt: "100px" }}>
         <Text h1 css={{ mr: "10px" }}>
           I'm
@@ -22,24 +22,23 @@ export default function HeaderSection() {
         <Text h4>Creative Developer</Text>
       </Row>
       <Row justify="center" align="center">
-        <Text h6 css={{ ta: "center" }}>
+        <Text h6 css={{ ta: "center", mw: "500px" }}>
           I make visual and interactive digital experiences using web-related
-          <br />
           technologies to develop highly engaging/storytelling websites and web
           apps.
         </Text>
       </Row>
       <Row justify="center" align="center" css={{ mt: "20px" }}>
-        <Button ghost color={"gradient"} css={{ mr: "20px" }} size="sm">
+        <Button ghost color={"gradient"} css={{ mr: "20px" }} size="sm" auto>
           Download CV
         </Button>
-        <Button color={"gradient"} size="sm">
+        <Button color={"gradient"} size="sm" auto>
           Let's Talk
         </Button>
       </Row>
       <Row justify="center" align="center" css={{ mt: "30px" }}>
         <div className="profile-backdrop"></div>
-        <img className="profile-img" src="" alt="" />
+        {/** <img className="profile-img" src="" alt="" /> */}
       </Row>
     </Container>
   );
