@@ -154,7 +154,11 @@ li {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgba(151, 80, 221, 1);
+  background: linear-gradient(
+    120deg,
+    rgba(151, 80, 221, 1) 35%,
+    rgba(0, 114, 245, 1) 100%
+  );
   color: white;
 
   transform: rotateY(180deg);
