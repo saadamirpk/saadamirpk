@@ -1,11 +1,33 @@
 import { Button, Grid, Row, Text } from "@nextui-org/react";
-import React from "react";
+import React, { useState } from "react";
 import InfoCard from "../Components/InfoCard";
+import confetti from "canvas-confetti";
 
-export default function AboutSection() {
+export default function AboutSection(props: any) {
+  const [clickCount, setClickCount] = useState(0);
+
+  const handleConfetti = () => {
+    if (clickCount < 15) {
+      confetti({
+        particleCount: 150,
+        spread: 360,
+        origin: {
+          x: Math.random(),
+          // since they fall down, start a bit higher than random
+          y: Math.random() - 0.2,
+        },
+      });
+    } else {
+      //Display Modal with Social Links
+    }
+    setClickCount((prev) => {
+      return prev + 1;
+    });
+  };
+
   return (
-    <>
-      <Row justify="center" align="center">
+    <section id="about">
+      <Row justify="center" align="center" css={{ mt: "80px" }}>
         <Text h6>Get to Know</Text>
       </Row>
       <Row justify="center" align="center">
@@ -21,14 +43,10 @@ export default function AboutSection() {
       </Row>
       <Grid.Container gap={2} justify="center" css={{ mt: "50px" }}>
         <Grid xs={12} sm={6}>
-          <Row
-            justify="center"
-            align="center"
-            css={{ mt: "-50px", position: "relative" }}
-          >
+          <Row justify="center" align="center" css={{ position: "relative" }}>
             <img
               className="about-img"
-              src="http://github.com/saadamirpk.png"
+              src="http://github.com/saadamirpk.pngg"
               alt=""
             />
             <div className="about-img-backdrop" />
@@ -102,12 +120,15 @@ export default function AboutSection() {
               size="sm"
               css={{ mt: "20px", ml: "20px" }}
               auto
+              onClick={handleConfetti}
             >
-              Let's Talk
+              {clickCount <= 5
+                ? "Click Here For a Surprise"
+                : 15 - clickCount + " Clicks Away"}
             </Button>
           </div>
         </Grid>
       </Grid.Container>
-    </>
+    </section>
   );
 }
