@@ -34,13 +34,6 @@ export default function Navbar(props: { active: string; update: any }) {
         <Star />
       </a>
       <a
-        href="#work"
-        onClick={() => props.update("work")}
-        className={props.active === "work" ? "active" : ""}
-      >
-        <Work />
-      </a>
-      <a
         href="#contact"
         onClick={() => props.update("contact")}
         className={props.active === "contact" ? "active" : ""}

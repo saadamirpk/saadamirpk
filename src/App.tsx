@@ -2,11 +2,10 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import Navbar from "./Components/Navbar";
 import AboutSection from "./Sections/AboutSection";
 import ContactSection from "./Sections/ContactSection";
-import ExperienceSection from "./Sections/ExperienceSection";
 import Footer from "./Sections/Footer";
 import HeaderSection from "./Sections/HeaderSection";
 import ProjectsSection from "./Sections/ProjectsSection";
-import SkillsSection from "./Sections/SkillsSection";
+import SkillsSection from "./Sections/AwardsSection";
 import useIntersection from "./Utility/useIntersection";
 
 function App() {
@@ -83,9 +82,6 @@ function App() {
       </div>
       <div ref={refProjects}>
         <SkillsSection />
-      </div>
-      <div ref={refExp}>
-        <ExperienceSection />
       </div>
       <div ref={refContact}>
         <ContactSection />
