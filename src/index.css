@@ -9,6 +9,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -46,6 +53,15 @@ nav > a:hover {
 nav > .active {
   background: rgba(0, 0, 0, 0.3);
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 0.5rem 1.3rem;
+  }
+  nav > a {
+    padding: 0.7rem;
+  }
 }
 
 .profile-backdrop {

@@ -4,7 +4,7 @@ import React from "react";
 export default function HeaderSection(props: any) {
   return (
     <section id="home">
-      <Container id="header-section" style={{ height: "130vh" }}>
+      <Container id="header-section" style={{ height: "100vh" }}>
         <Row justify="center" align="center" css={{ mt: "100px" }}>
           <Text h1 css={{ mr: "10px" }}>
             I'm
