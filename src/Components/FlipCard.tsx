@@ -9,7 +9,7 @@ export default function FlipCard(props: { title: string; desc: any }) {
     return (
       <Row
         css={{
-          padding: "7px 25px",
+          padding: "3px 15px",
         }}
       >
         <Text>

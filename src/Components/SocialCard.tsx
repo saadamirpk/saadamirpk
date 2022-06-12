@@ -5,15 +5,19 @@ import Star from "../iconComponents/Star";
 import User from "../iconComponents/User";
 
 export default function InfoCard(props: {
-  subtitle: string;
   title: string;
+  subtitle: string;
   ic: number;
 }) {
   return (
     <Card
       isHoverable
       variant="bordered"
-      css={{ mw: "250px", backgroundColor: "$purple600", margin: "auto" }}
+      css={{
+        mw: "250px",
+        margin: "auto",
+        backgroundColor: "$purple600",
+      }}
     >
       <Card.Body css={{ ta: "center" }}>
         <>

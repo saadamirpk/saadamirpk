@@ -9,7 +9,7 @@ export default function Testimonial(props: {
 }) {
   return (
     <Grid.Container gap={2}>
-      <Grid xs={3}>
+      <Grid xs={3} justify="center">
         <Avatar
           src={props.img}
           css={{ size: "$20" }}
@@ -19,7 +19,7 @@ export default function Testimonial(props: {
           squared
         />
       </Grid>
-      <Grid xs={9}>
+      <Grid xs={9} justify="center">
         <Text small>
           {props.body}
           <br />

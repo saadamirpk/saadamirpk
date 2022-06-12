@@ -24,7 +24,7 @@ export default function AwardsSection(props: any) {
         </Text>
       </Row>
       <Grid.Container gap={2} justify="center" css={{ mt: "50px" }}>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <FlipCard
             title="Skills and Tools"
             desc={[
@@ -42,7 +42,7 @@ export default function AwardsSection(props: any) {
             ]}
           />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <FlipCard
             title="Hobbies"
             desc={[
@@ -60,7 +60,7 @@ export default function AwardsSection(props: any) {
             ]}
           />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <FlipCard
             title="Achievements"
             desc={[
@@ -89,7 +89,7 @@ export default function AwardsSection(props: any) {
         </Grid>
       </Grid.Container>
       <Grid.Container gap={2} justify="center">
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <Testimonial
             name="Dr. Ghulam Mustafa"
             img={ghulam}
@@ -97,7 +97,7 @@ export default function AwardsSection(props: any) {
             body="Saad comes across as an intelligent, conscientious, and hardworking individual who is a thoughtful self-starter with a pleasing personality. He will make meaningful contribution to the computing knowledge with his keen desire for intellectual growth."
           />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <Testimonial
             name="Mr. Sohaib Ahsan"
             img={sohaib}
@@ -105,7 +105,7 @@ export default function AwardsSection(props: any) {
             body="Saad is a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person. Great employee with a very strong problem solving skills. Saad is an asset to any company."
           />
         </Grid>
-        <Grid xs={12} sm={4}>
+        <Grid xs={12} sm={6} md={4}>
           <Testimonial
             name="M. Muzamil Rashid"
             img={muzamil}

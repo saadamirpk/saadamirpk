@@ -33,9 +33,11 @@ export default function HeaderSection(props: any) {
           <Button ghost color={"gradient"} css={{ mr: "20px" }} size="sm" auto>
             Download CV
           </Button>
-          <Button color={"gradient"} size="sm" auto>
-            Let's Talk
-          </Button>
+          <a href="#contact">
+            <Button color={"gradient"} size="sm" auto>
+              Let's Talk
+            </Button>
+          </a>
         </Row>
         <Row justify="center" align="center" css={{ mt: "30px" }}>
           <div className="profile-backdrop"></div>
