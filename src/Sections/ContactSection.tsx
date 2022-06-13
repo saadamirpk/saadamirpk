@@ -28,6 +28,7 @@ export default function ContactSection(props: any) {
                 ic={1}
                 subtitle={"Send me an Email"}
                 title="Contact Form"
+                link="mailto:saadamir@gmail.com"
               />
             </Grid>
             <Grid xs={6}>
@@ -35,6 +36,7 @@ export default function ContactSection(props: any) {
                 ic={2}
                 subtitle="Find me on LinkedIn"
                 title="/in/saad-amir"
+                link="https://linkedin.com/in/saad-amir"
               />
             </Grid>
             <Grid xs={6}>
@@ -42,13 +44,15 @@ export default function ContactSection(props: any) {
                 ic={3}
                 subtitle="Find me on GitHub"
                 title="@saadamirpk"
+                link="https://github.com/saadamirpk"
               />
             </Grid>
             <Grid xs={6}>
               <InfoCard
-                ic={3}
-                subtitle="Find me on GitHub"
-                title="@saadamirpk"
+                ic={4}
+                subtitle="ko-fi/saadamir"
+                title="Buy me a Coffee"
+                link="https://ko-fi.com/saadamir"
               />
             </Grid>
           </Grid.Container>

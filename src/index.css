@@ -166,9 +166,10 @@ footer {
   margin-top: 150px;
 }
 
-.hidden {
-  opacity: 0;
-  width: 100%;
-  margin-left: 120%;
-  background-color: aqua;
+a {
+  text-decoration: none;
+}
+
+.pointer:hover {
+  cursor: pointer;
 }
