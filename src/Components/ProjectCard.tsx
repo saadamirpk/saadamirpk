@@ -24,7 +24,7 @@ export default function ProjectCard(props: {
       </Card.Header>
       <Card.Body css={{ p: 0 }}>
         <Card.Image
-          src="https://nextui.org/images/card-example-6.jpeg"
+          src={props.img}
           width="100%"
           height="100%"
           objectFit="cover"
@@ -53,22 +53,24 @@ export default function ProjectCard(props: {
           <Col>
             <Row justify="flex-end">
               {props.livelink != null ? (
-                <Button
-                  flat
-                  auto
-                  rounded
-                  color="secondary"
-                  css={{ marginRight: "5px" }}
-                >
-                  <Text
-                    css={{ color: "inherit" }}
-                    size={12}
-                    weight="bold"
-                    transform="uppercase"
+                <a href={props.livelink} target="_blank">
+                  <Button
+                    flat
+                    auto
+                    rounded
+                    color="secondary"
+                    css={{ marginRight: "5px" }}
                   >
-                    Demo
-                  </Text>
-                </Button>
+                    <Text
+                      css={{ color: "inherit" }}
+                      size={12}
+                      weight="bold"
+                      transform="uppercase"
+                    >
+                      Demo
+                    </Text>
+                  </Button>
+                </a>
               ) : (
                 <></>
               )}

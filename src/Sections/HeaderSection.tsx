@@ -1,5 +1,6 @@
 import { Button, Card, Container, Row, Text } from "@nextui-org/react";
 import React from "react";
+import saad from "../Images/saadimg.png";
 
 export default function HeaderSection(props: any) {
   return (
@@ -41,7 +42,7 @@ export default function HeaderSection(props: any) {
         </Row>
         <Row justify="center" align="center" css={{ mt: "30px" }}>
           <div className="profile-backdrop"></div>
-          {/** <img className="profile-img" src="" alt="" /> */}
+          <img className="profile-img" src={saad} alt="profile image" />
         </Row>
       </Container>
     </section>

@@ -6,10 +6,18 @@ import Footer from "./Sections/Footer";
 import HeaderSection from "./Sections/HeaderSection";
 import ProjectsSection from "./Sections/ProjectsSection";
 import SkillsSection from "./Sections/AwardsSection";
-import useIntersection from "./Utility/useIntersection";
+import MouseTrail from "@pjsalita/react-mouse-trail";
 
 function App() {
   const [activeLink, setActiveLink] = useState("home");
+  const config = {
+    color: "#0072F5",
+    idleAnimation: true,
+    idleAnimationCount: 10,
+    inverted: false,
+    size: 22,
+    trailCount: 26,
+  };
 
   const updateActiveLink = (link: string) => {
     setActiveLink(link);
@@ -70,6 +78,7 @@ function App() {
   //swiper JS
   return (
     <div className="app">
+      <MouseTrail {...config} />
       <Navbar active={activeLink} update={updateActiveLink} />
       <div ref={refHome}>
         <HeaderSection />
