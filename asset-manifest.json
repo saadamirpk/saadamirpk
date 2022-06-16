@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saadamirpk/static/css/main.8a8d5381.css",
-    "main.js": "/saadamirpk/static/js/main.fc852048.js",
+    "main.css": "/saadamirpk/static/css/main.383e83eb.css",
+    "main.js": "/saadamirpk/static/js/main.c338286b.js",
     "static/js/787.e6da6b7e.chunk.js": "/saadamirpk/static/js/787.e6da6b7e.chunk.js",
     "static/media/suroor.gif": "/saadamirpk/static/media/suroor.f2599b269175bcae499d.gif",
     "static/media/bg2.png": "/saadamirpk/static/media/bg2.c1c7d8663d45e3d071cf.png",
@@ -13,12 +13,12 @@
     "static/media/muz.jpeg": "/saadamirpk/static/media/muz.1b1061355727eb3eab8d.jpeg",
     "static/media/rightarrow.svg": "/saadamirpk/static/media/rightarrow.e9985534173b0575f2c3.svg",
     "index.html": "/saadamirpk/index.html",
-    "main.8a8d5381.css.map": "/saadamirpk/static/css/main.8a8d5381.css.map",
-    "main.fc852048.js.map": "/saadamirpk/static/js/main.fc852048.js.map",
+    "main.383e83eb.css.map": "/saadamirpk/static/css/main.383e83eb.css.map",
+    "main.c338286b.js.map": "/saadamirpk/static/js/main.c338286b.js.map",
     "787.e6da6b7e.chunk.js.map": "/saadamirpk/static/js/787.e6da6b7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a8d5381.css",
-    "static/js/main.fc852048.js"
+    "static/css/main.383e83eb.css",
+    "static/js/main.c338286b.js"
   ]
 }
