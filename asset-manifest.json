@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/saadamirpk/static/css/main.a99fd0bf.css",
-    "main.js": "/saadamirpk/static/js/main.c1e8c25c.js",
+    "main.js": "/saadamirpk/static/js/main.57f143b9.js",
     "static/js/787.e6da6b7e.chunk.js": "/saadamirpk/static/js/787.e6da6b7e.chunk.js",
     "static/media/suroor.gif": "/saadamirpk/static/media/suroor.f2599b269175bcae499d.gif",
     "static/media/soh.jpg": "/saadamirpk/static/media/soh.465cc5fe4ffb36a4acb2.jpg",
@@ -12,11 +12,11 @@
     "static/media/rightarrow.svg": "/saadamirpk/static/media/rightarrow.e9985534173b0575f2c3.svg",
     "index.html": "/saadamirpk/index.html",
     "main.a99fd0bf.css.map": "/saadamirpk/static/css/main.a99fd0bf.css.map",
-    "main.c1e8c25c.js.map": "/saadamirpk/static/js/main.c1e8c25c.js.map",
+    "main.57f143b9.js.map": "/saadamirpk/static/js/main.57f143b9.js.map",
     "787.e6da6b7e.chunk.js.map": "/saadamirpk/static/js/787.e6da6b7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a99fd0bf.css",
-    "static/js/main.c1e8c25c.js"
+    "static/js/main.57f143b9.js"
   ]
 }
