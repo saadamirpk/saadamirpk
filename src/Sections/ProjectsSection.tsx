@@ -40,8 +40,8 @@ export default function ProjectsSection(props: any) {
             <ProjectCard
               new={false}
               name=""
-              gitlink="https://github.com"
-              livelink="https://linkedin.com"
+              gitlink="https://github.com/saadamirpk/tenzies-react-game"
+              livelink="https://saadamirpk.github.io/tenzies-react-game/"
               desc="Memory Game with Timer, Score History and CSS Design"
               tags="ReactJS, LocalStorage"
               img="https://github.com/saadamirpk/tenzies-react-game/raw/main/src/tenzies-gif.gif"
@@ -80,22 +80,9 @@ export default function ProjectsSection(props: any) {
               new={false}
               name=""
               gitlink="https://github.com/saadamirpk/Suroor_app"
-              livelink="https://suroor.com.pk"
               desc="E-Commerce Store with Reselling Options and Admin Panel"
               tags="Android, XML, Java"
               img={suroor}
-            />
-          </Row>
-        </Grid>
-        <Grid xs={12} sm={6} md={4}>
-          <Row justify="center" align="center">
-            <ProjectCard
-              new={false}
-              name=""
-              gitlink="https://github.com/saadamirpk/suroor-api"
-              desc="Manage Students Attendance, Assignments and Class Resources"
-              tags="Laravel, PHP, MVC"
-              img=""
             />
           </Row>
         </Grid>
