@@ -5,7 +5,7 @@ import saad from "../Images/saadimg.png";
 export default function HeaderSection(props: any) {
   return (
     <section id="home">
-      <Container id="header-section" style={{ height: "100vh" }}>
+      <Container className="padding-sides" style={{ height: "100vh" }}>
         <Row justify="center" align="center" css={{ mt: "100px" }}>
           <Text h1 css={{ mr: "10px" }}>
             I'm
