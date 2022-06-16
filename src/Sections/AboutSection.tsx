@@ -19,7 +19,7 @@ export default function AboutSection(props: any) {
   return (
     <section id="about">
       <div className="padding-sides">
-        <Row justify="center" align="center" css={{ mt: "0px" }}>
+        <Row justify="center" align="center" css={{ mt: "80px" }}>
           <Text h6>Get to Know</Text>
         </Row>
         <Row justify="center" align="center">

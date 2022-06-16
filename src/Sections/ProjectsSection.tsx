@@ -6,9 +6,9 @@ import suroor from "../Images/suroor.gif";
 
 export default function ProjectsSection(props: any) {
   return (
-    <section id="projects">
+    <section id="projects" style={{ height: "max-content" }}>
       <div className="padding-sides">
-        <Row justify="center" align="center" css={{ mt: "-40px" }}>
+        <Row justify="center" align="center" css={{ mt: "80px" }}>
           <Text h6>Check Out My</Text>
         </Row>
         <Row justify="center" align="center">
