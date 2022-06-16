@@ -31,9 +31,17 @@ export default function HeaderSection(props: any) {
           </Text>
         </Row>
         <Row justify="center" align="center" css={{ mt: "20px" }}>
-          <Button ghost color={"gradient"} css={{ mr: "20px" }} size="sm" auto>
-            Download CV
-          </Button>
+          <a href="/saad-resume.pdf" download>
+            <Button
+              ghost
+              color={"gradient"}
+              css={{ mr: "20px" }}
+              size="sm"
+              auto
+            >
+              Download CV
+            </Button>
+          </a>
           <a href="#contact">
             <Button color={"gradient"} size="sm" auto>
               Let's Talk
