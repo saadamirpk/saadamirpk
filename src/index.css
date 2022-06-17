@@ -204,4 +204,7 @@ a {
   #about {
     height: max-content;
   }
+  .hideOnMob {
+    display: none;
+  }
 }

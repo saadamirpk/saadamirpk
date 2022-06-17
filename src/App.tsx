@@ -78,7 +78,7 @@ function App() {
   //swiper JS
   return (
     <div className="app">
-      <MouseTrail {...config} />
+      <MouseTrail className="hideOnMob" {...config} />
       <Navbar active={activeLink} update={updateActiveLink} />
       <div ref={refHome}>
         <HeaderSection />
