@@ -5,7 +5,10 @@ import ContactForm from "../Components/ContactForm";
 
 export default function ContactSection(props: any) {
   return (
-    <section id="contact" style={{ height: "max-content" }}>
+    <section
+      id="contact"
+      style={{ height: "max-content", paddingBottom: "150px" }}
+    >
       <div className="padding-sides">
         <Row justify="center" align="center" css={{ mt: "80px" }}>
           <Text h6>Get In Touch</Text>
