@@ -9,7 +9,7 @@
 ### :man_technologist: &nbsp;About Me :
 
 I am a Javascript Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Pakistan
-
+I make visual and interactive digital experiences using web-related technologies to develop highly engaging/storytelling websites and web apps.
 ---
 
 ### 🛠 &nbsp;Languages and Tools :
