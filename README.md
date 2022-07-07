@@ -5,7 +5,6 @@
   <a href="https://www.linkedin.com/in/saad-amir"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"       alt="LinkedIn Badge"></a>
   <a href="mailto:saadamir.m@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"       alt="GMAIL Badge"></a>
 </p>
-[![]](https://komarev.com/ghpvc/?username=your-github-username&color=dc143c)
 
 ### :man_technologist: &nbsp;About Me :
 
