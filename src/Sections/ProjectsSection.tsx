@@ -1,8 +1,9 @@
-import { Row, Text, Grid, Button } from "@nextui-org/react";
+import { Row, Text, Grid } from "@nextui-org/react";
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 import nextui from "../Images/nextui.jpeg";
 import suroor from "../Images/suroor.gif";
+import cart from "../Images/cartss.png";
 
 export default function ProjectsSection(props: any) {
   return (
@@ -23,6 +24,19 @@ export default function ProjectsSection(props: any) {
           </Text>
         </Row>
         <Grid.Container gap={2} justify="center" css={{ mt: "50px" }}>
+          <Grid xs={12} sm={6} md={4}>
+            <Row justify="center" align="center">
+              <ProjectCard
+                new={true}
+                name=""
+                gitlink="https://github.com/saadamirpk/react-cart"
+                livelink="https://www.linkedin.com/posts/saad-amir_react-job-jobs-activity-6950782881774346240-VtzE?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                desc="React Shopping Cart with GraphQL Integration"
+                tags="ReactJS, Redux, GraphQL, API"
+                img={cart}
+              />
+            </Row>
+          </Grid>
           <Grid xs={12} sm={6} md={4}>
             <Row justify="center" align="center">
               <ProjectCard
