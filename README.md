@@ -8,14 +8,8 @@
 
 ### :man_technologist: &nbsp;About Me :
 
-I am a Javascript Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Pakistan
-
-- 🔭 I’m working as a Software Engineer and contributing to frontend and backend for web applications
-- 🌱 Exploring Saas Startups & Supporting Local Ventures
-- 🤵 Managing Pakistan GitHub Community
-- ⚡ Let's discuss your ideas over linkedin or email!
-
----
+<p>I am a Javascript Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Pakistan<br/>
+I make visual and interactive digital experiences using web-related technologies <br/> to develop highly engaging/storytelling websites and web apps.</p>
 
 ### 🛠 &nbsp;Languages and Tools :
 
