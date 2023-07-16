@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Saad!
+### Hey 👋 I'm Saad!
 
 I do Web Development with Javascript!
 
